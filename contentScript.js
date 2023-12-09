@@ -1,13 +1,22 @@
 async function initializeExtension() {
   console.log("Extension initialized");
 
-  function clearBrowser() {
+  async function breakWalls() {
+    document.body.style.position = "static";
+
+    document.head.innerHTML += `<style>.sg-dialog__overlay { display: none !important; width: 0 !important; height: 0 !important; }</style>`;
+  }
+
+  function clearTracks() {
     window.localStorage.clear();
     document.cookie = "";
   }
 
-  clearBrowser();
-  const interval = setInterval(clearBrowser, 500);
+  breakWalls();
+  clearTracks();
+  const interval = setInterval(() => {
+    clearTracks();
+  }, 500);
 
   setTimeout(() => {
     clearInterval(interval);
