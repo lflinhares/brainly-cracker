@@ -1,4 +1,4 @@
-# Brainly Cracker 🍪
+# Brainly Cracker Chrome Extension 🍪
 
 ## Use brainly without answer limits nor adwalls. 🧠
 
