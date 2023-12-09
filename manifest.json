@@ -1,11 +1,10 @@
 {
-  "name": "Cookie cracker",
-  "version": "0.01",
+  "name": "Brainly Cracker",
+  "version": "0.0.1",
   "description": "-",
   "background": {
     "service_worker": "background.js"
   },
-
   "permissions": ["scripting", "tabs", "activeTab"],
   "host_permissions": ["*://*.brainly.com.br/*"],
   "manifest_version": 3
