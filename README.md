@@ -1,14 +1,18 @@
-# Brainly Cracker
-## Use brainly without answer limits.
+# Brainly Cracker 🍪
 
-# How to install
- - Clone repository
- - Open browser extensions
- - Enable developer mode
- - Load package
- - Select repository folder
- - Enable extension
+## Use brainly without answer limits nor adwalls. 🧠
 
-# Usage
-  The extension clear all tracks just by navigating. In case of answer blocking reload the page.
-   
+## How to install
+
+- Clone repository
+- Open browser extensions
+- Enable developer mode
+- Load package
+- Select repository folder
+- Enable extension
+
+## Usage
+
+The extension clears all tracks just by navigating. In case of answer blocking reload the page.
+
+##### Something not working? Please let us know!
